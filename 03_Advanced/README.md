@@ -10,27 +10,36 @@ Kabhi kabhi humein nahi pata hota ke kitni memory chahiye hogi. DMA humein ijaza
 - `malloc()` / `calloc()`: Memory mangne ke liye.
 - `free()`: Memory wapis karne ke liye (taake memory leak na ho).
 
-## 3. Data Structures (Linked List)
-Jab humein dynamically data store karna ho jo memory mein musalsal (contiguous) na ho, to hum Linked List istemal karte hain. Har 'node' mein data aur agle node ka pata hota hai.
+## 3. Data Structures (Linked List & Stack)
+- **Linked List:** Jab humein dynamically data store karna ho jo memory mein musalsal na ho.
+- **Stack:** LIFO (Last In First Out) principle par kaam karne wala structure.
 
-## 4. File Handling
-C mein hum files bana sakte hain, unhein read kar sakte hain aur un mein data save kar sakte hain.
-- `fopen()`: File kholne ke liye.
-- `fprintf()` / `fscanf()`: File mein data likhne ya parhne ke liye.
-- `fclose()`: File band karne ke liye.
+## 4. Bitwise Operators
+Bits (0 aur 1) ke level par kaam karna. Ye performance aur low-level programming ke liye zaroori hain.
 
-## 5. Preprocessors
-Ye wo commands hoti hain jo compiler ko code compile karne se pehle milti hain.
-- `#define`: Constant ya Macro banane ke liye.
-- `#include`: Header files shamil karne ke liye.
+## 5. Command Line Arguments
+Program chalaate waqt bahar se input dena (e.g., `./program file.txt`).
 
-## 6. System Programming (Basics)
-C language system level par kaam karne ke liye behtareen hai. Is ke zariye hum Operating System ke functions call kar sakte hain.
+## 6. Storage Classes
+Variables ka scope aur lifetime (static, extern, auto, register).
+
+## 7. File Handling
+Files ko read/write karna aur data save karna.
+
+## 8. Preprocessors
+Macros aur Header files ka istemal.
+
+## 9. System Programming (Basics)
+Operating system commands aur errors ko handle karna.
 
 ## Example Files:
 - `structures.c`: Custom data types banana.
 - `dma.c`: Dynamic memory (malloc/calloc) ka istemal.
-- `linked_list.c`: Linked List data structure.
+- `linked_list.c`: Linked List implementation.
+- `stack.c`: Stack data structure implementation.
+- `bitwise_ops.c`: Bits ke saath kaam karna.
+- `cmd_args.c`: Command line se data lena.
+- `storage_classes.c`: Static aur auto variables.
 - `file_io.c`: Files ke saath kaam karna.
 - `preprocessors.c`: Macros aur constants.
 - `system_prog.c`: System level commands.

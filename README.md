@@ -18,9 +18,14 @@ Assalam-o-Alaikum! Is repository mein hum C language ko bilkul shuru se (Basics)
 
 ### 3. Advanced (Maharat) 🔴
 - **Structures & Unions:** Custom data types banana.
-- **Dynamic Memory Allocation (DMA):** Memory ko runtime par manage karna (malloc, calloc, free).
-- **File Handling:** Files ko read aur write karna.
-- **Preprocessors:** Macro aur Header files.
+- **Dynamic Memory Allocation (DMA):** Runtime memory management.
+- **Linked Lists & Stacks:** Bunyadi Data Structures.
+- **Bitwise Operators:** Bits ke level par kaam.
+- **Command Line Arguments:** Program ko bahar se input dena.
+- **File Handling:** Files ko read/write karna.
+
+### 4. Project Structure 🏗️
+- **Multi-file Projects:** Code ko header aur source files mein bantna.
 
 ---
 
